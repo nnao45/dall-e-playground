@@ -1,5 +1,7 @@
 # dall-e-playground
-```#+BEGIN_QUERY
+
+```
+#+BEGIN_QUERY
 {:title [:h2 "DONE"]
  :query [:find (pull ?b [*])
   :in $ ?query-page
@@ -18,4 +20,5 @@
                                result))
 
 }
-#+END_QUERY```
+#+END_QUERY
+```
